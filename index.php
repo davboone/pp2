@@ -30,6 +30,9 @@ error_reporting(E_ALL);
         echo "<h2>Step 2</h2>";
         $numbers = array(7,9,8,9,8,8,6);
         printArr($numbers);
+        echo "<br>";
+        echo "<h2>Step 3</h2>";
+        largest($numbers);
     ?>
 </body>
 </html>

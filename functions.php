@@ -15,3 +15,13 @@ function printArr($array) {
         echo $num."<br>";
     }
 }
+
+function largest($array){
+    $largestNum = 0;
+    foreach ($array as $num) {
+        if($num > $largestNum){
+            $largestNum = $num;
+        }
+    }
+    echo "Largest number is: ".$largestNum;
+}
