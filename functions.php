@@ -25,3 +25,14 @@ function largest($array){
     }
     echo "Largest number is: ".$largestNum;
 }
+
+function removeDups($array){
+
+    echo "[";
+    $array = array_flip($array);
+    $array = array_flip($array);
+    foreach ($array as $single){
+        echo $single." ";
+    }
+    echo "]";
+}

@@ -26,13 +26,20 @@ error_reporting(E_ALL);
     <?php
         include ("functions.php");
         echo "<h1>PHP Array Practice</h1>";
+
         echo "<br>";
         echo "<h2>Step 2</h2>";
         $numbers = array(7,9,8,9,8,8,6);
         printArr($numbers);
+
         echo "<br>";
-        echo "<h2>Step 3</h2>";
+        echo "<h2>Step 4</h2>";
         largest($numbers);
+
+        echo "<br>";
+        echo "<h2>Step 5</h2>";
+
+        echo "Array with no duplicates: ".removeDups($numbers);
     ?>
 </body>
 </html>
